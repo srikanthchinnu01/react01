@@ -1,0 +1,33 @@
+<script>
+    class user{
+        uid=1
+        uname='srikanth'
+        uemail='srikanth@gmail.com'
+          
+        myfun1(){
+            var msg=`named functions `//local variable in oops
+            return`${msg}<br />`
+        }
+        myfun2=function(){
+            return`ananemous functions`
+        }
+        myfun3=()=>{
+            return`arrow or lamda functions`
+        }
+    }
+
+    var u =new user
+    document.write(`
+    <h3>class properties data:</h3> <br /><br />
+    uid is:${u.uid}<br />
+    uName is:${u.uname}<br />
+    uemail is:${u.uemail}<br />
+    `)
+
+    document.write(`
+    <h3>class methods/functions data:</h3> <br /><br />
+    ${u.myfun1()}<br />
+    ${u.myfun2()}<br />
+    ${u.myfun3()}<br />
+    `)
+</script>

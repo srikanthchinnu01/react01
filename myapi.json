@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "name": "srikanthkumar",
+      "email": "srikanth@gmail.com",
+      "phone": "9381823674",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "chinnu",
+      "email": "chinnu@gmail.com",
+      "phone": 1112222333
+    },
+    {
+      "id": 3,
+      "name": "ranjith",
+      "email": "ranjith@gmail.com",
+      "phone": 9381823674
+    },
+    {
+      "id": 6,
+      "name": "karun",
+      "email": "karun@gmail.com",
+      "phone": 9381823674
+    },
+    {
+      "id": 7,
+      "name": "live",
+      "email": "live@gmail.com",
+      "phone": 9381823674
+    },
+    {
+      "name": "karunkumar",
+      "email": "karunkumar@gmail.com",
+      "phone": "1112222333",
+      "id": 8
+    },
+    {
+      "name": "hari",
+      "email": "hari@gmail.com",
+      "phone": "45444545454",
+      "id": 9
+    },
+    {
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "phone": "1112223334",
+      "id": 10
+    },
+    {
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "phone": "1112223334",
+      "id": 11
+    }
+  ],
+  "boookings": [
+    {
+      "s.no": 1,
+      "dateofBooking": "10-08-2022",
+      "product": "mi mobile"
+    },
+    {
+      "s.no": 2,
+      "dateofBooking": "11-10-2022",
+      "product": "apple mobile"
+    }
+  ],
+  "admins": [
+    {
+      "s.no": 2,
+      "uname": "kamal",
+      "mobile": 7660912331
+    },
+    {
+      "s.no": 3,
+      "uname": "kaal",
+      "mobile": 7660912332
+    },
+    {
+      "s.no": 2,
+      "uname": "karun",
+      "mobile": 7660912333
+    }
+  ]
+}

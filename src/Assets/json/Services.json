@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "fafacoffee",
+        "title": "Data Science",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra est pharetra, ultricies sapien ut, facilisis mi. Nullam eu urna sit amet nibh vulputate lacinia. Praesent eu ultricies mi, vel condimentum quam. Fusce nunc leo, rhoncus nec fermentum vitae, egestas quis quam."
+ },
+ {
+    "icon": "fafacoffee",
+    "title": "Appdeveloper",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra est pharetra, ultricies sapien ut, facilisis mi. Nullam eu urna sit amet nibh vulputate lacinia. Praesent eu ultricies mi, vel condimentum quam. Fusce nunc leo, rhoncus nec fermentum vitae, egestas quis quam."
+},
+{
+    "icon": "fafacoffee",
+    "title": "Webdesigning",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra est pharetra, ultricies sapien ut, facilisis mi. Nullam eu urna sit amet nibh vulputate lacinia. Praesent eu ultricies mi, vel condimentum quam. Fusce nunc leo, rhoncus nec fermentum vitae, egestas quis quam."
+},
+{
+    "icon": "fafacoffee",
+    "title": "react",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra est pharetra, ultricies sapien ut, facilisis mi. Nullam eu urna sit amet nibh vulputate lacinia. Praesent eu ultricies mi, vel condimentum quam. Fusce nunc leo, rhoncus nec fermentum vitae, egestas quis quam."
+},
+{
+    "icon": "fafacoffee",
+    "title": "Angular",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra est pharetra, ultricies sapien ut, facilisis mi. Nullam eu urna sit amet nibh vulputate lacinia. Praesent eu ultricies mi, vel condimentum quam. Fusce nunc leo, rhoncus nec fermentum vitae, egestas quis quam."
+},
+{
+    "icon": "fafacoffee",
+    "title": "Javascript",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra est pharetra, ultricies sapien ut, facilisis mi. Nullam eu urna sit amet nibh vulputate lacinia. Praesent eu ultricies mi, vel condimentum quam. Fusce nunc leo, rhoncus nec fermentum vitae, egestas quis quam."
+}
+]

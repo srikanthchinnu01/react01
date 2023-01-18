@@ -1,0 +1,30 @@
+<script>
+    class user{
+        uid;;
+        uname;
+        uemail;
+          
+        myfun1(request,id){
+            var msg=request //local variable in oops
+            return`${msg}-${this.uid=id}<br />`
+        }
+        myfun2=function(request,name){
+            var msg = request
+            return`${msg}-${this.uname=name}<br />`
+        }
+        myfun3=(request,email)=>{
+            var msg = request
+            return`${msg}-${this.uemail=email}<br />`
+        }
+    }
+
+    var u =new user
+    
+
+    document.write(`
+    <h3>using this key word:</h3> <br /><br />
+    ${u.myfun1("Named funtion with arguments",1001)}<br />
+    ${u.myfun2("self calling function with arguments",'srikanth')}<br />
+    ${u.myfun3("arrow function with arguments",'srikanth@gmail.com')}<br />
+    `)
+</script>

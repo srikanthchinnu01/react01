@@ -1,0 +1,22 @@
+<script>
+    class user{
+        constructor(){
+            document.write("this is a default method-constructor<br /><br />")
+        }
+        myfun1(){
+            document.write("This is a default method-constructor <br /><br />")
+            this.myfun2();
+        }
+        myfun2(){
+            document.write("This is a default method-constructor<br /><br />")
+            this.myfun3();
+        }
+        myfun3(){
+            document.write("This is a default method-constructor<br /><br />")
+        }
+    }
+
+    var u =new user
+    u.myfun1()
+
+</script>

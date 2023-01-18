@@ -1,0 +1,30 @@
+<script>
+    //parent class
+    class admin
+    {
+        constructor()
+        {
+            document.write(`admin constructor <br />`)
+        }
+        adminFun(){
+            return"This is adminfunction <br />"
+        }
+    }
+    
+    
+    class user extends admin
+    {
+        constructor()
+        {
+            super();//super_method(admin constructor)
+            document.write(`Child constructor <br />`)
+        }
+        adminFun(){
+            return`This is Childfunction <br /> ${super.adminFun()} <br />`
+        }
+    }
+    var u=new user
+   
+    document.write(`childclass-${u.adminFun()}`)
+    
+</script>

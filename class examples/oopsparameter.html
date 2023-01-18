@@ -1,0 +1,35 @@
+<script>
+    class user{
+        uid=1
+        uname='srikanth'
+        uemail='srikanth@gmail.com'
+          
+        myfun1(request){
+            var msg=request //local variable in oops
+            return`${msg}<br />`
+        }
+        myfun2=function(request){
+            var msg = request
+            return`${msg}<br />`
+        }
+        myfun3=(request)=>{
+            var msg = request
+            return`${msg}<br />`
+        }
+    }
+
+    var u =new user
+    document.write(`
+    <h3>class properties data:</h3> <br /><br />
+    uid is:${u.uid}<br />
+    uName is:${u.uname}<br />
+    uemail is:${u.uemail}<br />
+    `)
+
+    document.write(`
+    <h3>class methods/functions data:</h3> <br /><br />
+    ${u.myfun1("Named funtion with arguments")}<br />
+    ${u.myfun2("self calling function with arguments")}<br />
+    ${u.myfun3("arrow function with arguments")}<br />
+    `)
+</script>
